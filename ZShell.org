@@ -1,0 +1,95 @@
+# -*- mode:org; -*-
+
+#+title:The Z Shell
+#+subtitle:{{{author}}}
+#+subtitle:{{{version}}} {{{date}}}
+#+author:Pinecone062
+#+date:2020-23-02 21:06
+#+macro:version Version 0.0.1
+
+* Sources
+*** From Bash to Z Shell---Conquering the Command Line
+    :PROPERTIES:
+    :date:     2005
+    :authors:  "Kiddle, Oliver; Peek, Jerry; Stephenson, Peter"
+    :publisher: Apress
+    :END:
+***** Part 1---Introducing the Shell
+***** Part 2---Using bash and zsh
+***** Part 3---Extending the Shel
+***** Appendix A---Unix Programs
+***** Appendix B---External Resources
+***** Glossary
+* From Bash to Z Shell
+*** Preface
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
+    There are several major shells. Because each has its differences,
+    covering all of the shells could make a book that’s both confusing
+    and unwieldy. We’ve concentrated on bash and zsh, two of the most
+    modern and powerful shells. Both are freely available; in fact,
+    they’re installed on many of the systems we’ve listed and can be
+    downloaded from the Internet for the rest.
+
+    - ~bash~ is the de facto standard shell on Linux.  ~bash~ runs
+      most scripts written for other Bourne-type shells, including the
+      original Unix shell ~sh~.
+
+    - ~zsh~, also called Z shell, is an extremely powerful shell
+      that’s not as well known as ~bash~.  ~zsh~ combines most of the
+      best features of several shells, including C-type shells such as
+      ~tcsh~.  However, its basic usage is similar to ~bash~.
+
+
+    This book provides the first comprehensive Z shell coverage that
+    we know of.  Covering both ~bash~ and ~zsh` shows you what
+    features the two shells have in common as well as their different
+    approaches to the same tasks.
+*** Part 1---Introducing the Shell
+***** Chapter 1---Introduction to Shels
+***** Chapter 2---Using Shell Features Together
+***** Chapter 3---More Shell Features
+*** Part 2---Using bash and zsh
+***** Chapter 4---Entering  and Editing the Command Line
+***** Chapter 5---Starting the Shell
+***** Chapter 6---More About Shell History
+***** Chapter 7---Prompts
+***** Chapter 8---Files and Directories
+***** Chapter 9---Pattern Matching
+***** Chapter 10---Completion
+***** Chapter 11---Jobs and Processes
+*** Part 3---Extending the Shell
+***** Chapter 12---Variables
+***** Chapter 13---Scripting and Functions
+***** Chapter 14---Writing Editor Commands
+***** Chapter 15---Writing Completion Functions
+*** Appendix A---Unix Programs
+*** Appendix B---External Resources
+***** bash
+***** zsh
+***** General
+*** Appendix C---Glossary
+
+* Concept Index
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :INDEX:    cp
+  :END:
+* Configuration                                                    :noexport:
+#+startup:hidestars
+#+startup:odd
+#+texinfo_filename:ZShell.info
+#+texinfo_class: info
+#+texinfo_header:
+#+texinfo_post_header:
+#+texinfo_dir_category:Shells
+#+texinfo_dir_title:ZShell
+#+texinfo_dir_desc:About the Z Shell
+#+texinfo_printed_title:About the Z Shell
+
+* Local Variables                                                  :noexport:
+# Local Variables:
+# time-stamp-pattern:"8/^\\#\\+date:%Y-%02d-%02m %02H:%02M$"
+# org-adapt-indentation:t
+# End:
